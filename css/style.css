@@ -1,0 +1,31 @@
+/*font-family: 'Prata', serif;
+font-family: 'PT Sans', sans-serif;*/
+
+/* prata-regular - cyrillic_latin */
+@font-face {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/prata-v10-cyrillic_latin/prata-v10-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
+  src: local('Prata Regular'), local('Prata-Regular'),
+       url('../fonts/prata-v10-cyrillic_latin-regular.woff2') format('woff2')
+}
+/* pt-sans-regular - cyrillic_latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v11-cyrillic_latin/pt-sans-v11-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
+  src: local('PT Sans'), local('PTSans-Regular'),
+       url('../fonts/pt-sans-v11-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* pt-sans-700 - cyrillic_latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v11-cyrillic_latin/pt-sans-v11-cyrillic_latin-700.woff2'); /* IE9 Compat Modes */
+  src: local('PT Sans Bold'), local('PTSans-Bold'),
+       url('../fonts/pt-sans-v11-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+}
+
