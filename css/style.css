@@ -46,6 +46,23 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-family: 'Prata', serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  border-top: 1px solid #eec643;
+  border-bottom: 1px solid #eec643;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+/*-------------------------------PROMO-------------------------------*/
+
 .logo {
   font-family: 'Prata', serif;
   font-size: 30px;
@@ -59,4 +76,21 @@ h1 {
   line-height: 22px;
   color: #fff;
 }
+
+/*-------------------------------DIRECTIONS SECTION-------------------------------*/
+
+.direction-card {
+  background-color: #444;
+}
+
+.direction-desc {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+
+
+
+
 
