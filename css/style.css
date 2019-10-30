@@ -29,3 +29,34 @@ font-family: 'PT Sans', sans-serif;*/
        url('../fonts/pt-sans-v11-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #444;
+}
+
+h1 {
+  font-family: 'Prata', serif;
+  font-size: 32px;
+  line-height: 42px;
+  color: #fff;
+}
+
+.logo {
+  font-family: 'Prata', serif;
+  font-size: 30px;
+  color: #eec643;
+  text-decoration: none;
+}
+
+.text-promo {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+
