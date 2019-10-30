@@ -77,6 +77,14 @@ h3 {
   color: #fff;
 }
 
+.nav-link {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /*-------------------------------DIRECTIONS SECTION-------------------------------*/
 
 .direction-card {
