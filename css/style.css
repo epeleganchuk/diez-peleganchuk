@@ -6,7 +6,7 @@ font-family: 'PT Sans', sans-serif;*/
   font-family: 'Prata';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/prata-v10-cyrillic_latin/prata-v10-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
+  src: url('../fonts/prata-v10-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
   src: local('Prata Regular'), local('Prata-Regular'),
        url('../fonts/prata-v10-cyrillic_latin-regular.woff2') format('woff2')
 }
@@ -15,7 +15,7 @@ font-family: 'PT Sans', sans-serif;*/
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/pt-sans-v11-cyrillic_latin/pt-sans-v11-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
+  src: url('../fonts/pt-sans-v11-cyrillic_latin-regular.woff2'); /* IE9 Compat Modes */
   src: local('PT Sans'), local('PTSans-Regular'),
        url('../fonts/pt-sans-v11-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
 }
@@ -24,7 +24,7 @@ font-family: 'PT Sans', sans-serif;*/
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/pt-sans-v11-cyrillic_latin/pt-sans-v11-cyrillic_latin-700.woff2'); /* IE9 Compat Modes */
+  src: url('../fonts/pt-sans-v11-cyrillic_latin-700.woff2'); /* IE9 Compat Modes */
   src: local('PT Sans Bold'), local('PTSans-Bold'),
        url('../fonts/pt-sans-v11-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
 }
@@ -90,7 +90,17 @@ h3 {
   color: #fff;
 }
 
+/*-------------------------------ABOUT SCHOOL SECTION-------------------------------*/
 
+.advantage {
+  background-color: #444;
+}
 
+.advantage-desc {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
 
 
