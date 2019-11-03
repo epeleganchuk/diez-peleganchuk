@@ -66,21 +66,28 @@ h3 {
   display: none;
 }
 
+.hide-desctop {
+  display: block;
+}
+
+.col-6 {
+  width: 100%;
+}
+
 @media (min-width: 1280px) {
   .hide-mobile {
     display: block;
   }
-}
-
-.hide-desctop {
-  display: none;
-}
-
-@media (max-width: 1279px) {
   .hide-desctop {
-    display: block;
+    display: none;
+  }
+
+  .col-6 {
+    width: calc(8.33% * 6);
   }
 }
+
+
 
 /*-------------------------------PROMO-------------------------------*/
 
@@ -121,6 +128,20 @@ h3 {
 
 /*-------------------------------ABOUT SCHOOL SECTION-------------------------------*/
 
+.about-school {
+  display: flex;
+  flex-direction: column;
+}
+
+.adv-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages-title {
+  width: 100%;
+}
+
 .advantage {
   background-color: #444;
 }
@@ -130,6 +151,22 @@ h3 {
   font-size: 16px;
   line-height: 22px;
   color: #fff;
+}
+
+@media (min-width: 1280px) {
+  .about-school {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .adv-first {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .advantage {
+    width: calc(200% / 12 * 3);
+  }
 }
 
 
