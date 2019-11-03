@@ -84,11 +84,11 @@ h3 {
 
 @media (min-width: 640px) {
   .hide-mobile {
-    display: block;
+    display: none;
   }
 
 .hide-tablet {
-  display: none;
+  display: block;
 }
 
   .hide-desktop {
@@ -109,7 +109,7 @@ h3 {
   }
 
 .hide-tablet {
-  display: block;
+  display: none;
 }
 
   .hide-desktop {
