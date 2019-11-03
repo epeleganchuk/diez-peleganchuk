@@ -61,6 +61,27 @@ h3 {
   color: #fff;
   font-weight: bold;
 }
+
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .hide-mobile {
+    display: block;
+  }
+}
+
+.hide-desctop {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+  .hide-desctop {
+    display: block;
+  }
+}
+
 /*-------------------------------PROMO-------------------------------*/
 
 .logo {
