@@ -66,7 +66,7 @@ h3 {
   display: none;
 }
 
-.hide-desctop {
+.hide-desktop {
   display: block;
 }
 
@@ -78,7 +78,7 @@ h3 {
   .hide-mobile {
     display: block;
   }
-  .hide-desctop {
+  .hide-desktop {
     display: none;
   }
 
@@ -133,7 +133,7 @@ h3 {
   flex-direction: column;
 }
 
-.adv-first {
+.adv-first, .adv-second {
   display: flex;
   flex-direction: column;
 }
@@ -142,7 +142,7 @@ h3 {
   width: 100%;
 }
 
-.advantage {
+.advantage, .adv-form {
   background-color: #444;
 }
 
@@ -153,19 +153,33 @@ h3 {
   color: #fff;
 }
 
+.form-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.adv-form {
+  display: none;
+  background-color: #fff;
+}
+
 @media (min-width: 1280px) {
   .about-school {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .adv-first {
+  .adv-first, .adv-second {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .advantage {
+  .advantage, .adv-form {
     width: calc(200% / 12 * 3);
+  }
+
+  .adv-form {
+    display: block;
   }
 }
 
