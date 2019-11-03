@@ -66,6 +66,10 @@ h3 {
   display: none;
 }
 
+.hide-tablet {
+  display: none;
+}
+
 .hide-desktop {
   display: block;
 }
@@ -83,6 +87,10 @@ h3 {
     display: block;
   }
 
+.hide-tablet {
+  display: none;
+}
+
   .hide-desktop {
     display: none;
   }
@@ -99,6 +107,10 @@ h3 {
   .hide-mobile {
     display: block;
   }
+
+.hide-tablet {
+  display: block;
+}
 
   .hide-desktop {
     display: none;
@@ -189,6 +201,21 @@ h3 {
   background-color: #fff;
 }
 
+.button-in-form {
+  display: block;
+  background-color: #eec643;
+  text-transform: uppercase;
+
+}
+
+.button-in-form a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+
+}
+
 @media (min-width: 640px) {
   .about-school {
     flex-direction: row;
@@ -205,6 +232,10 @@ h3 {
   }
 
   .adv-form {
+    display: none;
+  }
+
+  .button-in-form {
     display: block;
   }
 }
@@ -226,6 +257,10 @@ h3 {
 
   .adv-form {
     display: block;
+  }
+
+  .button-in-form {
+    display: none;
   }
 }
 
