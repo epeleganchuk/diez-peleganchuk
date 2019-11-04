@@ -159,6 +159,9 @@ h3 {
 .about-school {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 15px 15px 0 15px;
+
 }
 
 .adv-first, .adv-second {
@@ -173,7 +176,9 @@ h3 {
 .advantage, .adv-form {
   background-color: #444;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
+  padding: 10px;
+
 }
 
 .advantage-desc {
@@ -207,15 +212,15 @@ h3 {
 }
 
 .structure {
-  background-image: url(../img/advantages-card-img-1-320.jpg);
+  background-image: url(../img/advantages-card-img-1-640.jpg);
 }
 
 .results {
-  background-image: url(../img/advantages-card-img-2-320.jpg);
+  background-image: url(../img/advantages-card-img-2-640.jpg);
 }
 
 .studio {
-  background-image: url(../img/advantages-card-img-3-320.jpg);
+  background-image: url(../img/advantages-card-img-3-640.jpg);
 }
 
 @media (min-width: 640px) {
