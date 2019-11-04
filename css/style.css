@@ -31,8 +31,7 @@ font-family: 'PT Sans', sans-serif;*/
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
 }
 
 header {
@@ -173,6 +172,8 @@ h3 {
 
 .advantage, .adv-form {
   background-color: #444;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .advantage-desc {
@@ -196,7 +197,6 @@ h3 {
   display: block;
   background-color: #eec643;
   text-transform: uppercase;
-
 }
 
 .button-in-form a {
@@ -204,7 +204,18 @@ h3 {
   color: #fff;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+}
 
+.structure {
+  background-image: url(../img/advantages-card-img-1-320.jpg);
+}
+
+.results {
+  background-image: url(../img/advantages-card-img-2-320.jpg);
+}
+
+.studio {
+  background-image: url(../img/advantages-card-img-3-320.jpg);
 }
 
 @media (min-width: 640px) {
@@ -252,6 +263,18 @@ h3 {
 
   .button-in-form {
     display: none;
+  }
+
+  .structure {
+    background-image: url(../img/advantages-card-img-1-1280.jpg);
+  }
+
+  .results {
+    background-image: url(../img/advantages-card-img-2-1280.jpg);
+  }
+
+  .studio {
+    background-image: url(../img/advantages-card-img-3-1280.jpg);
   }
 }
 
