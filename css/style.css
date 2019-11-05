@@ -31,7 +31,6 @@ font-family: 'PT Sans', sans-serif;*/
 
 * {
   box-sizing: border-box;
-
 }
 
 header {
@@ -61,6 +60,13 @@ h3 {
   font-weight: bold;
 }
 
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 15px;
+  background-color: #ddd;
+}
+
 .hide-mobile {
   display: none;
 }
@@ -69,26 +75,49 @@ h3 {
   display: block;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col {
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.col--xs-1 {width: 25%;}
+.col--xs-2 {width: 50%;}
+.col--xs-3 {width: 75%;}
+.col--xs-4 {width: 100%;}
+
+.col--xs-3-title {width: 75%;}
+
+/*
 .col-4-m {
-  width: 96%;
-  margin: 2% 2% 0 2%;
+  width: 100%;
+  margin: 15px 15px 0 15px;
 }
 
 .col-3-m {
-  width: 73%;
-  margin: 2% 0 2% 2%;
+  width: 75%;
+  margin: 15px 0 15px 15px;
 }
 
 .col-3-m-title {
-  width: 73%;
-  margin: 2% 0 0 2%;
+  width: 75%;
+  margin: 15px 0 0 15px;
   padding: 15px;
 }
 
 .col-1-m {
-  width: 21%;
-  margin: 2%;
-}
+  width: 25%;
+  margin: 15px;
+}*/
 
 @media (min-width: 1280px) {
   .hide-mobile {
@@ -99,22 +128,38 @@ h3 {
     display: none;
   }
 
-  .col-3-d {
-    width: calc(8% * 3 * 2);
-    margin: 2% 0 2% 2%
-  }
+.col--lg-1 {width: 8.33333333%;}
+.col--lg-2 {width: 16.66666667%;}
+.col--lg-3 {width: 25%;}
+.col--lg-4 {width: 33.33333333%;}
+.col--lg-5 {width: 41.66666667%;}
+.col--lg-6 {width: 50%;}
+.col--lg-7 {width: 58.33333333%;}
+.col--lg-8 {width: 66.66666667%;}
+.col--lg-9 {width: 75%;}
+.col--lg-10 {width: 83.33333333%;}
+.col--lg-11 {width: 91.66666667%;}
+.col--lg-12 {width: 100%;}
 
-.col-6-d {
+.col--lg-6-title {
     width: calc(8.33% * 6);
-  }
-
-.col-6-d-title {
-    width: 100%;
+    flex-wrap: wrap;
     padding: 15px;
     font-size: 50px;
   }
 
+/*  .col-3-d {
+    width: calc(8% * 3 * 2);
+    margin: 15px 0 15px 15px;
+  }
+
+.col-6-d {
+    width: calc(8.33% * 6);
+  }*/
+
+
 }
+
 
 
 
@@ -161,8 +206,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 
 .adv-first, .adv-second {
@@ -227,30 +270,6 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-/*@media (min-width: 640px) {
-  .about-school {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .adv-first, .adv-second {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .advantage, .adv-form {
-    width: calc(200% / 12 * 6);
-  }
-
-  .adv-form {
-    display: none;
-  }
-
-  .button-in-form {
-    display: block;
-  }
-}*/
 
 @media (min-width: 1280px) {
   .about-school {
