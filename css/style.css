@@ -50,8 +50,8 @@ h2 {
   font-size: 30px;
   line-height: 30px;
   color: #000;
-  border-top: 1px solid #eec643;
-  border-bottom: 1px solid #eec643;
+  border-top: 2px solid #eec643;
+  border-bottom: 2px solid #eec643;
 }
 
 h3 {
@@ -177,7 +177,7 @@ h3 {
 .advantage, .adv-form {
   background-color: #444;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   min-height: 200px;
   padding: 10px;
 
@@ -190,10 +190,6 @@ h3 {
   color: #fff;
 }
 
-.form-col {
-  display: flex;
-  flex-direction: column;
-}
 
 .adv-form {
   display: none;
@@ -282,10 +278,18 @@ h3 {
   }
 
   .adv-form {
-    display: block;
+    display: flex;
+    border: 2px solid #eec643;
     font-size: 20px;
     line-height: 28px;
   }
+
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
 
   .button-in-form {
     display: none;
