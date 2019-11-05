@@ -61,6 +61,8 @@ h3 {
 }
 
 .container {
+  min-width: 290px;
+  width: 100%;
   max-width: 1280px;
   margin: auto;
   padding: 0 15px;
@@ -116,6 +118,12 @@ h3 {
 
 
 @media (min-width: 1280px) {
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
   .hide-mobile {
     display: block;
   }
@@ -251,6 +259,7 @@ h3 {
   background-size: cover;
   min-height: 200px;
   padding: 10px;
+
 }
 
 .advantage-desc {
