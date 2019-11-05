@@ -70,40 +70,19 @@ h3 {
 }
 
 .col-4-m {
-  width: 100%;
+  width: 96%;
+  margin: 2% 2% 0 2%;
 }
 
 .col-3-m {
-  width: 75%;
+  width: 73%;
+  margin: 2% 0 2% 2%;
 }
 
 .col-1-m {
-  width: 25%;
+  width: 21%;
+  margin: 2%;
 }
-
-/*.col-3 {
-  width: 100%;
-}
-
-
-
-@media (min-width: 640px) {
-  .hide-mobile {
-    display: none;
-  }
-
-  .hide-desktop {
-    display: block;
-  }
-
-  .col-6 {
-    width: calc(8.33% * 12);
-  }
-
-  .col-3 {
-    width: calc(8.33% * 6);
-  }
-}*/
 
 @media (min-width: 1280px) {
   .hide-mobile {
@@ -115,16 +94,20 @@ h3 {
   }
 
   .col-3-d {
-    width: calc(8.33% * 3 * 2);
+    width: calc(8% * 3 * 2);
+    margin: 2% 0 2% 2%
   }
 
 .col-6-d {
     width: calc(8.33% * 6);
   }
 
-/*  .col-3 {
-    width: calc(8.33% * 12);
-  }*/
+.col-6-d-title {
+    width: 100%;
+    padding: 15px;
+    font-size: 50px;
+  }
+
 }
 
 
@@ -182,7 +165,7 @@ h3 {
 }
 
 .advantages-title {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .advantage, .adv-form {
@@ -282,8 +265,20 @@ h3 {
     min-height: 400px;
   }
 
+  .advantage-name {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .advantage-desc {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   .adv-form {
     display: block;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .button-in-form {
