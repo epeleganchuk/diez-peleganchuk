@@ -115,7 +115,7 @@ h3 {
   }
 
   .col-3-d {
-    width: calc(8.33% * 3);
+    width: calc(8.33% * 3 * 2);
   }
 
 .col-6-d {
@@ -189,6 +189,7 @@ h3 {
   background-color: #444;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  min-height: 200px;
   padding: 10px;
 
 }
@@ -214,6 +215,7 @@ h3 {
   display: flex;
   background-color: #eec643;
   text-transform: uppercase;
+  align-items: center;
 }
 
 .button-in-form a {
@@ -221,6 +223,7 @@ h3 {
   color: #fff;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+  transform: rotate(-90deg);
 }
 
 .structure {
@@ -276,7 +279,7 @@ h3 {
   }
 
   .advantage, .adv-form {
-    width: 50%;
+    min-height: 400px;
   }
 
   .adv-form {
