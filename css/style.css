@@ -79,6 +79,12 @@ h3 {
   margin: 2% 0 2% 2%;
 }
 
+.col-3-m-title {
+  width: 73%;
+  margin: 2% 0 0 2%;
+  padding: 15px;
+}
+
 .col-1-m {
   width: 21%;
   margin: 2%;
