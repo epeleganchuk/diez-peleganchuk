@@ -203,13 +203,10 @@ h3 {
 
   .title-bordered {
     padding-left: 15px;
+    padding-right: 28px;
     font-size: 50px;
     line-height: 50px;
   }
-
-  /*.title-container {
-    position: relative;
-  }*/
 
   .title-bordered-vert {
     position: absolute;
