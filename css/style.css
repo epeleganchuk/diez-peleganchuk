@@ -123,6 +123,11 @@ h3 {
 
 @media (min-width: 1280px) {
 
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
   .container {
     padding: 0 15px;
   }
@@ -222,6 +227,27 @@ h3 {
 
 /*-------------------------------DIRECTIONS SECTION-------------------------------*/
 
+.directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guitar,
+.sing,
+.piano,
+.lessons,
+.dir-button-in-form {
+  padding: 15px;
+  height: 100%;
+}
+
+.sing {order: 1;}
+.guitar {order: 2;}
+.piano {order: 3;}
+.dir-button-in-form {order: 4;}
+.lessons {order: 5;}
+
 .direction-card {
   background-color: #444;
 }
@@ -231,6 +257,39 @@ h3 {
   font-size: 16px;
   line-height: 22px;
   color: #fff;
+  margin: 0;
+  padding: 15px 0 15px 0;
+}
+
+.dir-button-in-form {
+  background-color: #eec643;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.dir-button-in-form a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  /*transform: rotate(-90deg);*/
+}
+
+@media (min-width: 1280px) {
+
+  .directions {
+    flex-direction: row;
+  }
+
+  .direction-desc {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .sing {
+  order: 0;
+}
+
 }
 
 /*-------------------------------ABOUT SCHOOL SECTION-------------------------------*/
@@ -239,11 +298,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.adv-first, .adv-second {
-  display: flex;
-  flex-direction: column;
 }
 
 .advantage, .adv-form {
@@ -270,9 +324,9 @@ h3 {
   padding: 15px;
 }
 
-.lessons {
+.first-lesson {
   height: 100%;
-  background: #ff0;
+  background: #555;
 }
 
 .team {
@@ -311,16 +365,10 @@ h3 {
 @media (min-width: 1280px) {
   .about-school {
     flex-direction: row;
-    justify-content: center;
   }
 
  .adv-form {
     min-height: 560px;
-  }
-
-  .advantage-name {
-    font-size: 30px;
-    line-height: 40px;
   }
 
   .advantage-desc {
