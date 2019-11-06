@@ -207,12 +207,17 @@ h3 {
     line-height: 50px;
   }
 
+  /*.title-container {
+    position: relative;
+  }*/
+
   .title-bordered-vert {
     position: absolute;
-    top: 0;
+    top: 94%;
     left: 0;
+    margin-left: 16px;
     transform: rotate(-90deg);
-    transform-origin: 100% 100%;
+    transform-origin: 0 0;
   }
 
   .col--lg-first {
@@ -225,6 +230,10 @@ h3 {
 
   .col--lg-third {
     order: -1;
+  }
+
+  .col--lg-padding-left {
+    padding-left: 85px;
   }
 
 }
@@ -258,6 +267,7 @@ h3 {
 
 .directions {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
 }
