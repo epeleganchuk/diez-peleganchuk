@@ -68,7 +68,7 @@ h3 {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 5px;
+  padding: 0 14px;
   background-color: #ddd;
 }
 
@@ -83,13 +83,15 @@ h3 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -5px;
-  margin-right: -5px;
+  /*margin-left: -7px;
+  margin-right: -7px;*/
+  margin: -7px;
 }
 
 .col {
-  padding-left: 5px;
-  padding-right: 5px;
+  /*padding-left: 7px;
+  padding-right: 7px;*/
+  padding: 7px;
   flex-grow: 0;
   flex-shrink: 0;
   width: 100%;
@@ -112,21 +114,12 @@ h3 {
 }
 
 .title-bordered {
-  margin: 0 0 1em;
+  /*margin: 0 0 7px;*/
+  margin: 0;
   padding: 0.05em;
-  border-top: 2px solid #808080;
-  border-bottom: 2px solid #808080;
+  border-top: 2px solid #eec643;
+  border-bottom: 2px solid #eec643;
 }
-
-/*.col--xs-3-title {
-  width: 75%;
-}*/
-
-/*section {
-  min-width: 290px;
-  width: 100%;
-  max-width: 1280px;
-}*/
 
 @media (min-width: 1280px) {
 
@@ -135,8 +128,8 @@ h3 {
   }
 
   .row {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -7px;
+    margin-right: -7px;
   }
 
   .hide-mobile {
@@ -148,8 +141,8 @@ h3 {
   }
 
   .col {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 7px;
+    padding-left: 7px;
   }
 
   .col--lg-1 {
@@ -199,15 +192,6 @@ h3 {
   .col--lg-12 {
     width: 100%;
   }
-
-  /*.col--lg-6-title {
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 15px;
-    font-size: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }*/
 
 }
 
@@ -278,31 +262,12 @@ h3 {
   color: #fff;
 }
 
-.adv-form {
-  display: none;
-  background-color: #fff;
-}
-
-.button-in-form {
-  display: flex;
-  background-color: #eec643;
-  text-transform: uppercase;
-  align-items: center;
-}
-
-.button-in-form a {
-  text-decoration: none;
-  color: #fff;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
-  transform: rotate(-90deg);
-}
-
 .team,
 .results,
 .studio {
   height: 100%;
-  background: #bada55;
+  background: #555;
+  padding: 15px;
 }
 
 .lessons {
@@ -322,10 +287,31 @@ h3 {
   background-image: url(../img/advantages-card-img-3-640.jpg);
 }
 
-.adv-second {
+.adv-form {
+  display: none;
+  background-color: #fff;
+  min-height: 500px;
+}
+
+.button-in-form {
+  display: flex;
+  background-color: #eec643;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.button-in-form a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  /*transform: rotate(-90deg);*/
+}
+
+/*.adv-second {
     flex-direction: row;
     flex-wrap: wrap;
-  }
+  }*/
 
 @media (min-width: 1280px) {
   .about-school {
@@ -333,13 +319,13 @@ h3 {
     justify-content: center;
   }
 
-  .adv-first, .adv-second {
+ /* .adv-first, .adv-second {
     flex-direction: row;
     flex-wrap: wrap;
-  }
+  }*/
 
-  .advantage, .adv-form {
-    min-height: 400px;
+ .adv-form {
+    min-height: 550px;
   }
 
   .advantage-name {
@@ -368,6 +354,15 @@ h3 {
   .button-in-form {
     display: none;
   }
+
+.team,
+.results,
+.studio {
+  height: 100%;
+  background: #555;
+  padding: 15px;
+  min-height: 500px;
+}
 
   .team {
     background-image: url(../img/advantages-card-img-1-1280.jpg);
