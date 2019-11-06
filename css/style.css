@@ -114,7 +114,6 @@ h3 {
 }
 
 .title-bordered {
-  /*margin: 0 0 7px;*/
   margin: 0;
   padding: 5px;
   border-top: 2px solid #eec643;
@@ -128,9 +127,9 @@ h3 {
     line-height: 40px;
   }
 
-section {
-  padding: 40px 20px;
-}
+  section {
+    padding: 40px 20px;
+  }
 
   .container {
     padding: 0 15px;
@@ -200,6 +199,30 @@ section {
 
   .col--lg-12 {
     width: 100%;
+  }
+
+  .title-bordered {
+    padding-left: 15px;
+  }
+
+  .title-bordered-vert {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+  }
+
+  .col--lg-first {
+    order: -3;
+  }
+
+  .col--lg-second {
+    order: -2;
+  }
+
+  .col--lg-third {
+    order: -1;
   }
 
 }
