@@ -34,9 +34,9 @@ font-family: 'PT Sans', sans-serif;*/
 }
 
 header {
-  /*display: flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;*/
+  justify-content: space-between;
   padding: 30px 15px;
   background-color: #444;
   background-image: url(../img/bg_main.jpg);
@@ -71,10 +71,6 @@ h3 {
   color: #fff;
   font-weight: bold;
   margin: 0;
-}
-
-.head-title {
-  padding-top: 100px;
 }
 
 .container {
@@ -140,6 +136,11 @@ h3 {
     max-width: 1280px;
   }
 
+  h1 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+
   h3 {
     font-size: 30px;
     line-height: 40px;
@@ -147,10 +148,6 @@ h3 {
 
   section {
     padding: 40px 20px;
-  }
-
-  .head-title {
-    padding-top: 225px;
   }
 
   .container {
@@ -267,6 +264,10 @@ h3 {
   text-decoration: none;
 }
 
+.head-title {
+  padding-top: 100px;
+}
+
 .text-promo {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -280,6 +281,18 @@ h3 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (min-width: 1280px) {
+    .head-title {
+    padding-top: 225px;
+    max-width: 700px;
+  }
+
+  .text-promo {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 
 /*-------------------------------DIRECTIONS SECTION-------------------------------*/
