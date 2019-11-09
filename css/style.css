@@ -124,6 +124,11 @@ h3 {
   border-bottom: 2px solid #eec643;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 @media (min-width: 1280px) {
@@ -552,7 +557,10 @@ display: inline-block;
 
 .video {
   position: relative;
-  float: none;
+}
+
+/*.video-gallery {
+    float: none;
 }
 
 .embed-responsive {
@@ -596,9 +604,7 @@ video {
 
 .embed-responsive-1by1 {
     padding-top: 100%;
-  }
-
-
+  }*/
 
 @media (min-width: 1280px) {
 
@@ -609,12 +615,18 @@ video {
 
   .big-video {
   float: left;
-  padding-left: 85px;
+  margin-left: 85px;
+  min-height: 565px;
+  min-width: 765px;
 }
 
-.small-video {
-  float: right;
-}
+  .small-video {
+    display: flex;
+    padding: 0 15px;
+    min-height: 565px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
 
 }
 
