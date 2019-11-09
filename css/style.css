@@ -548,4 +548,12 @@ display: inline-block;
   }
 }
 
+/*-------------------------------VIDEO SECTION-------------------------------*/
+
+.video {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
 
