@@ -582,19 +582,19 @@ video {
   border: 0;
 }
 
-.embed-responsive-21by9:before {
+.embed-responsive-21by9 {
     padding-top: 42.857%;
   }
 
-.embed-responsive-16by9:before {
-    padding-top: 56,25%;
+.embed-responsive-16by9 {
+    padding-top: 56.25%;
   }
 
-.embed-responsive-4by3:before {
+.embed-responsive-4by3 {
     padding-top: 75%;
   }
 
-.embed-responsive-1by1:before {
+.embed-responsive-1by1 {
     padding-top: 100%;
   }
 
@@ -609,7 +609,6 @@ video {
 
   .big-video {
   float: left;
-  width: 50%;
   padding-left: 85px;
 }
 
