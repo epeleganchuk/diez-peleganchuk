@@ -615,6 +615,10 @@ display: inline-block;
 
 /*-------------------------------CONTACTS SECTION-------------------------------*/
 
+  .title-contacts {
+  width: 75%;
+  }
+
 .location {
   display: flex;
   flex-direction: column;
@@ -637,16 +641,33 @@ display: inline-block;
 
 @media (min-width: 1280px) {
 
-.location {
-  font-size: 20px;
-  line-height: 28px;
-}
+  .title-contacts {
+  width: 50%;
+  }
+
+  .location {
+    font-size: 20px;
+    line-height: 28px;
+  }
 
   .phone {
     order: -1;
   }
 
-  .embed-responsive-card-xs:before {
+  .card-container {
+    display: flex;
+  }
+
+  .embed-responsive-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .embed-responsive-card-lg {
+    margin-right: 15px;
+  }
+
+  .embed-responsive-card-lg:before {
   padding-top: 53.793%;
   }
 
