@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  $('#carousel').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  });
+  // $('#carousel').slick({
+  //   infinite: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // });
 
 // Флаг включённости слайдера
 var slickSliderActive = false;
