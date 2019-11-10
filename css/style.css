@@ -563,7 +563,7 @@ display: inline-block;
     float: none;
 }
 
-/*.embed-responsive {
+.embed-responsive {
   position: relative;
   display: block;
   width: 100%;
@@ -604,7 +604,7 @@ video {
 
 .embed-responsive-1by1 {
     padding-top: 100%;
-  }*/
+  }
 
 @media (min-width: 1280px) {
 
@@ -623,7 +623,7 @@ video {
   .small-video {
     display: flex;
     padding: 0 15px;
-    min-height: 565px;
+    /*min-height: 565px;*/
     flex-wrap: wrap;
     align-content: space-between;
   }

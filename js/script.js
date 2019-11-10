@@ -13,7 +13,7 @@ var slickSliderActive = false;
 function checkSlider(){
 
   // Если вьюпорт уже чем 1280
-  if($(window).width() < 1280 - getScroll()){
+  if($(window).width() < 1279 - getScroll()){
 
     // Если флаг включённости опущен, то включим и поднимем флаг
     if(slickSliderActive == false){
