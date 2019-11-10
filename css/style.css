@@ -559,11 +559,11 @@ display: inline-block;
   position: relative;
 }
 
-/*.video-gallery {
+.video-gallery {
     float: none;
 }
 
-.embed-responsive {
+/*.embed-responsive {
   position: relative;
   display: block;
   width: 100%;
@@ -617,7 +617,7 @@ video {
   float: left;
   margin-left: 85px;
   min-height: 565px;
-  min-width: 765px;
+  min-width: 785px;
 }
 
   .small-video {
