@@ -582,10 +582,6 @@ display: inline-block;
   border: 0;
 }
 
-.embed-responsive-16by9 {
-
-}
-
 .embed-responsive-16by9:before {
   padding-top: 56.25%;
 }
@@ -613,6 +609,7 @@ display: inline-block;
 
   .small-video {
     width: 280px;
+    margin-bottom: 46px;
   }
 
 }
