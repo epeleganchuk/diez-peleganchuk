@@ -66,7 +66,7 @@ h3 {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 640px;
   margin: auto;
   padding: 0 14px;
   background-color: #ddd;
@@ -143,6 +143,7 @@ h3 {
   }
 
   .container {
+    max-width: 1280px;
     padding: 0 60px;
   }
 
@@ -255,6 +256,7 @@ header {
   background-image: url(../img/bg_main.jpg);
   background-repeat: no-repeat;
   min-height: 540px;
+  max-width: 640px;
   margin: auto;
 }
 
