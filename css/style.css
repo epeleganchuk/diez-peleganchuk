@@ -80,9 +80,9 @@ h3 {
   display: block;
 }
 
-  section {
-    padding: 15px 0 0 0;
-  }
+section {
+  padding: 15px 0 0 0;
+}
 
 .row {
   display: flex;
@@ -382,7 +382,10 @@ display: inline-block;
   order: 3;
   background-image: url(../img/directions-card-img-3-640.jpg);
 }
-.dir-button-in-form {order: 4;}
+
+.dir-button-in-form {
+  order: 4;
+}
 
 .lessons {
   order: 5;
@@ -412,19 +415,19 @@ display: inline-block;
     line-height: 28px;
   }
 
-.guitar,
-.sing,
-.piano,
-.lessons,
-.dir-button-in-form {
-  min-height: 265px;
-  padding: 30px;
-  }
+  .guitar,
+  .sing,
+  .piano,
+  .lessons,
+  .dir-button-in-form {
+    min-height: 265px;
+    padding: 30px;
+    }
 
-.dir-button-in-form a {
-  font-size: 30px;
-  line-height: 40px;
-}
+  .dir-button-in-form a {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
 }
 
@@ -503,6 +506,7 @@ display: inline-block;
 }
 
 @media (min-width: 1280px) {
+
 /*  .about-school {
     flex-direction: row;
   }*/
@@ -533,14 +537,14 @@ display: inline-block;
     display: none;
   }
 
-.team,
-.results,
-.studio {
-  height: 100%;
-  background: #555;
-  padding: 30px;
-  min-height: 500px;
-}
+  .team,
+  .results,
+  .studio {
+    height: 100%;
+    background: #555;
+    padding: 30px;
+    min-height: 500px;
+  }
 
   .team {
     background-image: url(../img/advantages-card-img-1-1280.jpg);
@@ -617,9 +621,9 @@ display: inline-block;
 
 /*-------------------------------CONTACTS SECTION-------------------------------*/
 
-  .title-contacts {
-  width: 75%;
-  }
+.title-contacts {
+width: 75%;
+}
 
 .location {
   display: flex;
