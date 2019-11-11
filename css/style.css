@@ -676,11 +676,45 @@ width: 75%;
   .embed-responsive-card-lg:before {
   padding-top: 53.793%;
   }
-
 }
 
+/*-------------------------------FOOTER-------------------------------*/
 
+footer {
+  padding: 60px 0;
+}
 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footer-container a {
+  text-decoration: none;
+}
+
+.logo-footer {
+  font-size: 20px;
+  color: #eec643;
+  font-family: 'Prata', serif;
+}
+
+.social-links {
+  width: 370px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.social-links a {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  color: #000;
+}
 
 
 
