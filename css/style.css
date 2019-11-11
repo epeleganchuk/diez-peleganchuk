@@ -511,10 +511,6 @@ display: inline-block;
     flex-direction: row;
   }*/
 
- .adv-form {
-    min-height: 560px;
-  }
-
   .advantage-desc {
     font-size: 20px;
     line-height: 28px;
@@ -522,6 +518,7 @@ display: inline-block;
 
   .adv-form {
     display: flex;
+    min-height: 580px;
     border: 2px solid #eec643;
     font-size: 20px;
     line-height: 28px;
@@ -647,21 +644,35 @@ width: 75%;
 
 @media (min-width: 1280px) {
 
+  .title-in-d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .title-contacts {
-  width: 50%;
+    width: 50%;
   }
 
   .location {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 20px;
+    padding: 0 350px 0 0;
   }
 
   .phone {
     order: -1;
   }
 
+  .address {
+    padding-bottom: 0;
+  }
+
   .card-container {
     display: flex;
+    flex-wrap: no-wrap;
+    padding-top: 15px;
   }
 
   .embed-responsive-card {
