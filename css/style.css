@@ -280,7 +280,7 @@ section {
   position: absolute;
   z-index: 1;
   top: 25px;
-  right: 20%;
+  right: 50px;
   display: flex;
   align-items: center;
   width: 3em;
@@ -362,6 +362,7 @@ section {
 }
 .nav__item:first-child a {
   padding-right: 3em;
+  margin-top: 80px;
 }
 @media (min-width: 1280px) {
   .nav__item:first-child a {
@@ -377,7 +378,7 @@ section {
   color: #fff;
   font-weight: 700;
   text-decoration: none;*/
-  margin-bottom: 1px;
+/*  margin-bottom: 1px;*/
 }
 
 
@@ -428,7 +429,8 @@ display: inline-block;
 .nav-link {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
-  color: #000;
+  color: #fff;
+  background-color: #000;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -465,6 +467,11 @@ display: inline-block;
   width: 500px;
   align-items: center;
   justify-content: space-between;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    color: #000;
   }
 
   .text-promo {
