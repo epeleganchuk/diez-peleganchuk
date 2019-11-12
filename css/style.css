@@ -252,13 +252,16 @@ section {
 
 header {
   padding: 30px 15px;
-  background-color: #444;
-  background-image: url(../img/bg_main.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   min-height: 540px;
   max-width: 640px;
   margin: auto;
+}
+
+.head-container {
+  background-image: url(../img/bg_main.jpg);
+  background-color: #444;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo {
