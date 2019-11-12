@@ -1,3 +1,14 @@
+document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+var toggler = document.getElementById('toggler');
+toggler.addEventListener('click', mainNavVisibleToggle);
+function mainNavVisibleToggle(e) {
+  e.preventDefault();
+  toggler.classList.toggle('toggler--close');
+  document.getElementById('nav').classList.toggle('nav--visible');
+}
+
+
 $(document).ready(function(){
 
   // $('#carousel').slick({
