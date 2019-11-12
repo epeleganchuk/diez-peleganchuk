@@ -254,6 +254,7 @@ header {
   padding: 30px 15px;
   background-color: #444;
   background-image: url(../img/bg_main.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   min-height: 540px;
   max-width: 640px;
@@ -366,6 +367,7 @@ display: inline-block;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 140px;
 }
 
@@ -474,6 +476,7 @@ display: inline-block;
   min-height: 140px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .first-lesson {
@@ -512,7 +515,6 @@ display: inline-block;
   color: #fff;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
-  /*transform: rotate(-90deg);*/
 }
 
 .adv-button-in-form a {
