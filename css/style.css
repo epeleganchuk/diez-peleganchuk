@@ -393,15 +393,23 @@ display: inline-block;
 }
 
 .dir-button-in-form {
+  padding: 0;
   background-color: #eec643;
   align-items: center;
 }
 
 .dir-button-in-form a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
 }
 
 @media (min-width: 1280px) {
@@ -425,6 +433,8 @@ display: inline-block;
     }
 
   .dir-button-in-form a {
+    transform: rotate(0deg);
+    text-transform: none;
     font-size: 30px;
     line-height: 40px;
   }
@@ -503,6 +513,12 @@ display: inline-block;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   /*transform: rotate(-90deg);*/
+}
+
+.adv-button-in-form a {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
 }
 
 @media (min-width: 1280px) {
