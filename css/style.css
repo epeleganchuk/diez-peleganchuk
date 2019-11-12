@@ -264,7 +264,7 @@ section {
 }
 .page-header {
   /*background-color: #777;*/
-  position: fixed;
+  position: static;
   top: 0;
   right: 0;
   left: 0;
@@ -349,6 +349,7 @@ section {
 }
 .nav--visible {
   display: block;
+  background-color: #000;
 }
 @media (min-width: 1280px) {
   .nav {
@@ -359,15 +360,11 @@ section {
 }
 .nav__item {
   display: block;
+
 }
 .nav__item:first-child a {
   padding-right: 3em;
-/*  margin-top: 80px;*/
-}
-
-.logo-menu {
-  background-color: #000;
-  margin: 0;
+  margin-top: 80px;
 }
 
 @media (min-width: 1280px) {
@@ -391,6 +388,7 @@ section {
 /*-------------------------------PROMO-------------------------------*/
 
 header {
+  position: relative;
   padding: 30px 15px;
   min-height: 540px;
   max-width: 640px;
@@ -410,6 +408,8 @@ header {
   font-size: 30px;
   color: #eec643;
   text-decoration: none;
+  position: absolute;
+  z-index: 1;
 }
 
 .head-title {
@@ -436,7 +436,6 @@ display: inline-block;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #000;
   text-decoration: none;
   text-transform: uppercase;
 }
