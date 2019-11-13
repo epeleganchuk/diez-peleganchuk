@@ -562,6 +562,11 @@ display: inline-block;
   background-image: url(../img/directions-card-img-4-640.jpg);
 }
 
+.direcion-card .dir-button-in-form {
+  display: flex;
+  justify-content: center;
+}
+
 .dir-button-in-form {
   padding: 0;
   background-color: #eec643;
@@ -582,12 +587,21 @@ display: inline-block;
   text-transform: uppercase;
 }
 
+.all-directions {
+  width: 0;
+  height: 0;
+}
+
 @media (min-width: 1280px) {
 
-.directions-title {
-  width: 543px;
-  padding-right: 0;
-}
+  .directions-title {
+    width: 543px;
+    padding-right: 0;
+  }
+
+  .direcion-card .dir-button-in-form {
+    align-items: flex-start;
+  }
 
   .direction-desc {
     font-size: 20px;
