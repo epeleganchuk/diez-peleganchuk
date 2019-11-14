@@ -761,6 +761,61 @@ display: inline-block;
   position: relative;
 }
 
+.video-gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-arrow {
+  position: absolute;
+  font: 0;
+  line-height: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: transparent;
+  width: 10%;
+  padding: 0;
+  height: auto;
+  z-index: 1;
+  display: flex;
+}
+
+.slick-prev {
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  justify-content: flex-start;
+}
+
+.slick-next {
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  justify-content: flex-end;
+}
+
+.slick-prev::before,
+.slick-next::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  display: block;
+  top: 50%;
+  left: 50%;
+  border-top: 2px solid #eec643;
+  border-right: 2px solid #eec643;
+}
+
+.slick-prev:before {
+  transform: translateY(-50%) translateX(-50%) rotate(-135deg);
+}
+
+.slick-next::after {
+  transform: translateY(-50%) translateX(-50%) rotate(45deg);
+}
+
 .title-video {
   width: 75%;
 }
