@@ -124,6 +124,10 @@ section {
   border-bottom: 2px solid #eec643;
 }
 
+.title-bordered-vert {
+  margin-bottom: 15px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -222,7 +226,6 @@ section {
     position: absolute;
     top: 100%;
     left: 0;
-    /*    margin-left: 16px;*/
     transform: rotate(-90deg);
     transform-origin: 0 0;
   }
@@ -853,6 +856,7 @@ display: inline-block;
   }
 
   .video-gallery {
+    width: 100%;
     position: relative;
     padding-left: 884px;
     min-height: 565px;
