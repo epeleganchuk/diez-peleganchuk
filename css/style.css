@@ -250,29 +250,94 @@ section {
 /*-------------------------------FORM-------------------------------*/
 
 .adv-form {
+  display: none;
+  background-color: #fff;
+  min-height: 500px;
   width: 280px;
 }
 
-fieldset {
-  border: 0;
+@media (min-width: 1280px) {
+  .adv-form {
+    display: flex;
+    min-height: 580px;
+    font-size: 20px;
+    line-height: 28px;
+    width: 280px;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #eec643;
+    padding: 15px;
+  }
+
+  .form-col {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  .form-head {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #eec643;
+  }
+
+  .form-head-top {
+    color: #000;
+  }
+
+  .form-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .form-name,
+  .form-phone,
+  .form-adv {
+    border: 0;
+    border-bottom: 2px solid #eec643;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 15px;
+    background-color: #fff;
+  }
+
+  .form-name {
+    margin-top: 120px;
+  }
+
+  .form-adv {
+    margin-top: 15px;
+  }
+
+  .form-send {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 278px;
+    padding: 20px 0;
+    margin: 0;
+    border: 0;
+    background-color: #eec643;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .adv-form-head {
+    border-color: #000;
+  }
+
 }
 
-.form-head {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #eec643;
-}
-
-.form-head-top {
-  color: #000;
-}
-
-.form-text {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-}
 
 /*-------------------------------MENU-------------------------------*/
 
@@ -663,8 +728,7 @@ display: inline-block;
   justify-content: center;
 }
 
-.advantage,
-.adv-form {
+.advantage {
   background-color: #444;
   background-repeat: no-repeat;
   background-size: cover;
@@ -708,13 +772,6 @@ display: inline-block;
   background-image: url(../img/advantages-card-img-3-640.jpg);
 }
 
-.adv-form {
-  display: none;
-  background-color: #fff;
-  min-height: 500px;
-  width: 280px;
-}
-
 .button-in-form {
   display: flex;
   background-color: #eec643;
@@ -745,20 +802,6 @@ display: inline-block;
   .advantage-desc {
     font-size: 20px;
     line-height: 28px;
-  }
-
-  .adv-form {
-    display: flex;
-    min-height: 580px;
-    border: 2px solid #eec643;
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .form-col {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
   }
 
   .button-in-form {
