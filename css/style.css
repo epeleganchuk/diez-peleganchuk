@@ -65,6 +65,10 @@ h3 {
   margin: 0;
 }
 
+a:hover {
+  text-shadow: 0 0 1px #000;
+}
+
 .container {
   max-width: 640px;
   margin: auto;
@@ -333,7 +337,19 @@ section {
   }
 
   .adv-form-head {
+    height: 420px;
+    margin-left: 180px;
     border-color: #000;
+  }
+
+  .form-name-head,
+  .form-phone-head,
+  .form-adv-head {
+    border-bottom-color: #000;
+  }
+
+  .form-send-head {
+    background-color: #000;
   }
 
 }
@@ -757,7 +773,6 @@ display: inline-block;
 
 .first-lesson {
   height: 100%;
-  background: #555;
 }
 
 .team {
