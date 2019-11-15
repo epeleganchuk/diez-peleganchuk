@@ -247,6 +247,33 @@ section {
   }
 }
 
+/*-------------------------------FORM-------------------------------*/
+
+.adv-form {
+  width: 280px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.form-head {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #eec643;
+}
+
+.form-head-top {
+  color: #000;
+}
+
+.form-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
 /*-------------------------------MENU-------------------------------*/
 
 /*body {
@@ -685,6 +712,7 @@ display: inline-block;
   display: none;
   background-color: #fff;
   min-height: 500px;
+  width: 280px;
 }
 
 .button-in-form {
@@ -693,6 +721,7 @@ display: inline-block;
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .button-in-form a {
