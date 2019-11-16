@@ -362,7 +362,6 @@ section {
   .form-send-head:hover {
     color: #eec643;
   }
-
 }
 
 /*-------------------------------MENU-------------------------------*/
@@ -372,6 +371,7 @@ section {
     padding-top: 0;
   }
 }
+
 .page-header {
   height: 3em;
 }
@@ -507,6 +507,7 @@ section {
     padding-right: 1em;
   }
 }
+
 .nav__item a {
   display: block;
   padding: 0 15px;
@@ -713,7 +714,6 @@ header {
 }
 
 @media (min-width: 1280px) {
-
   .directions-title {
     width: 543px;
     padding-right: 0;
@@ -824,7 +824,6 @@ header {
 }
 
 @media (min-width: 1280px) {
-
   .advantage-desc {
     font-size: 20px;
     line-height: 28px;
