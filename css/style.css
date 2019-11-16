@@ -331,6 +331,10 @@ section {
     text-transform: uppercase;
   }
 
+  .form-send:hover {
+    color: #000;
+  }
+
   .adv-form-head {
     min-height: 420px;
     margin-left: 180px;
@@ -355,8 +359,11 @@ section {
     background-color: #000;
   }
 
-}
+  .form-send-head:hover {
+    color: #eec643;
+  }
 
+}
 
 /*-------------------------------MENU-------------------------------*/
 
@@ -735,6 +742,11 @@ header {
     text-transform: none;
     font-size: 30px;
     line-height: 40px;
+  }
+
+  .dir-button-in-form a:hover {
+    text-shadow: none;
+    color: #000;
   }
 }
 
